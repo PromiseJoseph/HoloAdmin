@@ -7,10 +7,6 @@ import DashboardLayout from './components/Dashboard/DashboardLayout.jsx'
 import NewRegistrationLayout from './components/Regitration/newRegistration/NewRegistrationLayout.jsx'
 import EditRegistrationLayout from './components/Regitration/editRegistration/EditRegistrationLayout.jsx'
 import "./assets/css/style.css"
-// import "./assets/css/bootstrap.min.css"
-// import "./assets/js/bootstrap.bundle.min.js"
-// import "./assets/css/bootstrap-icons.css"
-// import "./assets/css/bootstrap-icons.json"
 import AllRegistration from './components/Regitration/AllRegistation.jsx'
 import ProfileLayout from './components/User/ProfileLayout.jsx'
 import SignupForm from './components/Auth/Signup/SignupForm.jsx'

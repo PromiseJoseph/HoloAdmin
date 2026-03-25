@@ -6,7 +6,6 @@ import { callContext } from "./components/Context/setContext"
  
 const axiosClient = axios.create({
     withCredentials: true,
-  
     timeoutErrorMessage:"takes too long to respond",
     withXSRFToken:true,
     baseURL:`http://localhost:8000/api/`,
