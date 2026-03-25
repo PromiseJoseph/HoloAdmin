@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea5f09d88ffbf76105ba994888793313",
+    "content-hash": "d77f4ae53eca08757619a3f16136a7f3",
     "packages": [
         {
             "name": "brick/math",
@@ -1370,72 +1370,6 @@
                 "source": "https://github.com/laravel/prompts/tree/v0.1.17"
             },
             "time": "2024-03-13T16:05:43+00:00"
-        },
-        {
-            "name": "laravel/sanctum",
-            "version": "v3.3.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/sanctum.git",
-                "reference": "8c104366459739f3ada0e994bcd3e6fd681ce3d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sanctum/zipball/8c104366459739f3ada0e994bcd3e6fd681ce3d5",
-                "reference": "8c104366459739f3ada0e994bcd3e6fd681ce3d5",
-                "shasum": ""
-            },
-            "require": {
-                "ext-json": "*",
-                "illuminate/console": "^9.21|^10.0",
-                "illuminate/contracts": "^9.21|^10.0",
-                "illuminate/database": "^9.21|^10.0",
-                "illuminate/support": "^9.21|^10.0",
-                "php": "^8.0.2"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.0",
-                "orchestra/testbench": "^7.28.2|^8.8.3",
-                "phpstan/phpstan": "^1.10",
-                "phpunit/phpunit": "^9.6"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "Laravel\\Sanctum\\SanctumServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Sanctum\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylor@laravel.com"
-                }
-            ],
-            "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
-            "keywords": [
-                "auth",
-                "laravel",
-                "sanctum"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel/sanctum/issues",
-                "source": "https://github.com/laravel/sanctum"
-            },
-            "time": "2023-12-19T18:44:48+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -6002,6 +5936,74 @@
                 }
             ],
             "time": "2023-11-03T12:00:00+00:00"
+        },
+        {
+            "name": "fly-apps/dockerfile-laravel",
+            "version": "1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fly-apps/dockerfile-laravel.git",
+                "reference": "d2fabbac41e468a67825b08d140c404596922cf9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fly-apps/dockerfile-laravel/zipball/d2fabbac41e468a67825b08d140c404596922cf9",
+                "reference": "d2fabbac41e468a67825b08d140c404596922cf9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "illuminate/view": "^10.0",
+                "laravel-zero/framework": "^10.2",
+                "laravel/pint": "^1.13",
+                "mockery/mockery": "^1.6",
+                "nunomaduro/termwind": "^1.15.1",
+                "pestphp/pest": "^2.22",
+                "phpspec/php-diff": "^1.1"
+            },
+            "bin": [
+                "builds/dockerfile-laravel"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "Database\\Seeders\\": "database/seeders/",
+                    "Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Fidao",
+                    "email": "fideloper@gmail.com"
+                },
+                {
+                    "name": "Kathryn Anne Tan",
+                    "email": "kathryn@fly.io"
+                },
+                {
+                    "name": "Sam Ruby",
+                    "email": "rubys@fly.io"
+                }
+            ],
+            "description": "Dockerfile generator and Fly.io helper.",
+            "homepage": "https://fly.io/docs/laravel",
+            "keywords": [
+                "Fly.io",
+                "cli",
+                "docker",
+                "dockerfile",
+                "generate",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/fly-apps/dockerfile-laravel/issues",
+                "source": "https://github.com/fly-apps/dockerfile-laravel/tree/1.0.6"
+            },
+            "time": "2024-07-26T20:08:41+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
